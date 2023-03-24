@@ -1,0 +1,87 @@
+#hamburger {
+  position: relative;
+}
+
+#hamburger svg {
+  position: absolute;
+  right: 0;
+  top: -1rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 0.25rem;
+}
+
+.modal-dialog {
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
+.modal-content {
+  border-radius: 0px !important;
+  background-color: #282828 !important;
+  text-align: center;
+}
+
+.modal-header {
+  display: block !important;
+  position: relative;
+  border-bottom: none !important;
+  padding: 2rem !important;
+}
+
+.modal-header h2 {
+  font-family: "La Belle Aurore", cursive;
+}
+
+.btn-close {
+  position: absolute;
+  color: #ffffff !important;
+  top: 0;
+  right: 0;
+  margin: 2rem !important;
+  font-size: 2rem;
+}
+
+.modal-body,
+.modal-footer {
+  background-color: #1d1d1d !important ;
+  padding: 0 !important;
+  color: #909096;
+}
+
+.modal-body ul {
+  list-style: none;
+  padding-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.modal-body li {
+  border: 1px solid #282828;
+  padding: 1rem;
+}
+
+.modal-body a,
+.modal-footer svg {
+  color: #909096;
+  text-decoration: none;
+}
+
+.modal-body a:hover,
+.modal-footer svg:hover {
+  color: #08fdd8;
+  text-decoration: none;
+}
+
+.modal-footer {
+  border-top: none !important;
+  display: block !important;
+  padding: 1rem !important;
+}
+
+.modal-footer a {
+  font-size: 2rem;
+  padding: 1rem;
+  line-height: 2rem;
+}

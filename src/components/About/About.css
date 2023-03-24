@@ -1,0 +1,10 @@
+#about {
+  margin: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-left,
+.about-right {
+  width: 50%;
+}

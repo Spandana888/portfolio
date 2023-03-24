@@ -1,0 +1,42 @@
+#skills{
+    margin: 2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-right,
+.skill-left{
+    width:50%;
+}
+
+.skill-left{
+    margin-right:3rem;
+}
+
+.skill-right {
+    margin-left: 3rem;
+}
+.skill-box{
+    background-color: #2a2a2a !important;
+    margin: 3rem 0rem;
+}
+
+.skill-left p:first-of-type:before {
+    content: '<p>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -2rem;
+    left: 3rem;
+}
+
+.skill-left p:last-of-type:after {
+    content: '<p/>';
+    font-family: 'La Belle Aurore', cursive;
+    color: #515152;
+    font-size: 18px;
+    position: absolute;
+    left: 3rem;
+    margin-top: 3rem;
+}
